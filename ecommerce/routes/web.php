@@ -18,9 +18,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Must load the controller (demo),
-Route::get('/about', [DemoController::class, 'Index']); // load the "Index" method
-
-Route::get('/contact', function () {
-   return view('contact');
+Route::controller(DemoController::class)->group(function() { // multiple routes put into a group
+    Route::get('/about', 'Index'); // load the "Index" method
+    Route::get('/contact', 'ContactMethod'); // load the "Index" method
 });
+
+//Must load the controller (demo),
+
+
+//Route::get('/contact', function () {
+//   return view('contact');
+//});
+
