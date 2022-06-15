@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+//Must Use the controller (demo)
+use App\Http\Controllers\Demo\DemoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about', function () {
-    return view('about');
-});
+//Must load the controller (demo)
+Route::get('/about', [DemoController::class, '']);
 
 Route::get('/contact', function () {
    return view('contact');
