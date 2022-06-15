@@ -5,6 +5,6 @@
     <title>About</title>
 </head>
 <body>
-<h1>This is About Page</h1>
+<h1>This is About Page from controller</h1>
 </body>
 </html>
