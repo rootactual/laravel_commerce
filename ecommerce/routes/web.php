@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Must load the controller (demo)
-Route::get('/about', [DemoController::class, '']);
+//Must load the controller (demo),
+Route::get('/about', [DemoController::class, 'Index']); // load the "Index" method
 
 Route::get('/contact', function () {
    return view('contact');
