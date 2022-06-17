@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::controller(DemoController::class)->group(function() { // multiple routes put into a group
-    Route::get('/about', 'Index'); // load the "Index" method, URL route
+    Route::get('/about', 'Index')->name('about.page')->middleware('check'); // load the "Index" method, URL route
     Route::get('/contact', 'ContactMethod')->name('contact.page'); // named route
 });
 
