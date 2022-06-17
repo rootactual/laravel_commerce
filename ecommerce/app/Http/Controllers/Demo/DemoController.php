@@ -11,4 +11,9 @@ class DemoController extends Controller
     public function Index() {
         return view('about');
     } // end method
+
+    // this is the ContactMethod method for web.php
+    public function ContactMethod() {
+        return view('contact');
+    }
 }
