@@ -6,6 +6,6 @@
 </head>
 <body>
     <h2>This is Contact Page from controller</h2>
-    <a href="{{url('/about')}}"> About </a> <!-- Utilizing Url Route -->
+    <a href="{{route('about.page')}}"> About </a> <!-- Utilizing Url Route -->
 </body>
 </html>
