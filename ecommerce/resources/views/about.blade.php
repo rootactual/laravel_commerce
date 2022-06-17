@@ -5,6 +5,7 @@
     <title>About</title>
 </head>
 <body>
-<h1>This is About Page from controller</h1>
+    <h2>This is About Page from controller</h2>
+    <a href="{{route('contact.page')}}"> Contact </a> <!-- Utilizing Named Route -->
 </body>
 </html>
