@@ -117,6 +117,7 @@
       <excludeFolder url="file://$MODULE_DIR$/ecommerce/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/ecommerce/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/ecommerce/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/ecommerce/vendor/laravel/breeze" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -5,7 +5,7 @@
       <paths name="EcommerceLaravel">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/www/html/ecommerce_laravel.com" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/var/www/html/ecommerce" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
